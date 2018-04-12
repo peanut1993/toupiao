@@ -1,0 +1,572 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>投票人管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/投票人管理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/投票人管理/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1331" class="ax_default box_1">
+        <div id="u1331_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1332" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u1333" class="ax_default droplist">
+        <select id="u1333_input" class="text_sketch">
+          <option value="姓名">姓名</option>
+          <option value="公司">公司</option>
+          <option value="职级">职级</option>
+          <option value="工号">工号</option>
+          <option value="微信号">微信号</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1334" class="ax_default label">
+        <div id="u1334_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1335" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">查找投票人</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u1336" class="ax_default text_field">
+        <input id="u1336_input" type="text" value="" class="text_sketch"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1337" class="ax_default primary_button">
+        <div id="u1337_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1338" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">查找</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u1339" class="ax_default droplist">
+        <select id="u1339_input" class="text_sketch">
+          <option selected value="导入投票人">导入投票人</option>
+          <option value="导出投票人">导出投票人</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u1340" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1341" class="ax_default table_cell">
+          <img id="u1341_img" class="img " src="images/后台候选人导入/u1056.png"/>
+          <!-- Unnamed () -->
+          <div id="u1342" class="text" style="display: none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1343" class="ax_default table_cell">
+          <img id="u1343_img" class="img " src="images/投票人管理/u1343.png"/>
+          <!-- Unnamed () -->
+          <div id="u1344" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">序号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1345" class="ax_default table_cell">
+          <img id="u1345_img" class="img " src="images/投票人管理/u1345.png"/>
+          <!-- Unnamed () -->
+          <div id="u1346" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">姓名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1347" class="ax_default table_cell">
+          <img id="u1347_img" class="img " src="images/投票人管理/u1347.png"/>
+          <!-- Unnamed () -->
+          <div id="u1348" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1349" class="ax_default table_cell">
+          <img id="u1349_img" class="img " src="images/投票人管理/u1349.png"/>
+          <!-- Unnamed () -->
+          <div id="u1350" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">职位</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1351" class="ax_default table_cell">
+          <img id="u1351_img" class="img " src="images/投票人管理/u1351.png"/>
+          <!-- Unnamed () -->
+          <div id="u1352" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">部门</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1353" class="ax_default table_cell">
+          <img id="u1353_img" class="img " src="images/后台候选人导入/u1066.png"/>
+          <!-- Unnamed () -->
+          <div id="u1354" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">工号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1355" class="ax_default table_cell">
+          <img id="u1355_img" class="img " src="images/投票人管理/u1355.png"/>
+          <!-- Unnamed () -->
+          <div id="u1356" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">微信号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1357" class="ax_default table_cell">
+          <img id="u1357_img" class="img " src="images/投票人管理/u1357.png"/>
+          <!-- Unnamed () -->
+          <div id="u1358" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">操作&nbsp;&nbsp; </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1359" class="ax_default table_cell">
+          <img id="u1359_img" class="img " src="images/后台候选人导入/u1080.png"/>
+          <!-- Unnamed () -->
+          <div id="u1360" class="text" style="display: none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1361" class="ax_default table_cell">
+          <img id="u1361_img" class="img " src="images/投票人管理/u1361.png"/>
+          <!-- Unnamed () -->
+          <div id="u1362" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1363" class="ax_default table_cell">
+          <img id="u1363_img" class="img " src="images/投票人管理/u1363.png"/>
+          <!-- Unnamed () -->
+          <div id="u1364" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">分总一</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1365" class="ax_default table_cell">
+          <img id="u1365_img" class="img " src="images/投票人管理/u1365.png"/>
+          <!-- Unnamed () -->
+          <div id="u1366" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">康冠医疗</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1367" class="ax_default table_cell">
+          <img id="u1367_img" class="img " src="images/投票人管理/u1367.png"/>
+          <!-- Unnamed () -->
+          <div id="u1368" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">分管总经理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1369" class="ax_default table_cell">
+          <img id="u1369_img" class="img " src="images/投票人管理/u1369.png"/>
+          <!-- Unnamed () -->
+          <div id="u1370" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">无</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1371" class="ax_default table_cell">
+          <img id="u1371_img" class="img " src="images/后台候选人导入/u1090.png"/>
+          <!-- Unnamed () -->
+          <div id="u1372" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">JKG001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1373" class="ax_default table_cell">
+          <img id="u1373_img" class="img " src="images/投票人管理/u1373.png"/>
+          <!-- Unnamed () -->
+          <div id="u1374" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">15689565589</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1375" class="ax_default table_cell">
+          <img id="u1375_img" class="img " src="images/投票人管理/u1375.png"/>
+          <!-- Unnamed () -->
+          <div id="u1376" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">修改&nbsp; 删除&nbsp; </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1377" class="ax_default table_cell">
+          <img id="u1377_img" class="img " src="images/后台候选人导入/u1128.png"/>
+          <!-- Unnamed () -->
+          <div id="u1378" class="text" style="display: none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1379" class="ax_default table_cell">
+          <img id="u1379_img" class="img " src="images/投票人管理/u1379.png"/>
+          <!-- Unnamed () -->
+          <div id="u1380" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1381" class="ax_default table_cell">
+          <img id="u1381_img" class="img " src="images/投票人管理/u1381.png"/>
+          <!-- Unnamed () -->
+          <div id="u1382" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">部门经理一</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1383" class="ax_default table_cell">
+          <img id="u1383_img" class="img " src="images/投票人管理/u1383.png"/>
+          <!-- Unnamed () -->
+          <div id="u1384" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">皓丽科技</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1385" class="ax_default table_cell">
+          <img id="u1385_img" class="img " src="images/投票人管理/u1385.png"/>
+          <!-- Unnamed () -->
+          <div id="u1386" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">经理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1387" class="ax_default table_cell">
+          <img id="u1387_img" class="img " src="images/投票人管理/u1387.png"/>
+          <!-- Unnamed () -->
+          <div id="u1388" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">营销部</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1389" class="ax_default table_cell">
+          <img id="u1389_img" class="img " src="images/后台候选人导入/u1138.png"/>
+          <!-- Unnamed () -->
+          <div id="u1390" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">FGJ001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1391" class="ax_default table_cell">
+          <img id="u1391_img" class="img " src="images/投票人管理/u1391.png"/>
+          <!-- Unnamed () -->
+          <div id="u1392" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">15689565588</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1393" class="ax_default table_cell">
+          <img id="u1393_img" class="img " src="images/投票人管理/u1393.png"/>
+          <!-- Unnamed () -->
+          <div id="u1394" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">修改&nbsp; 删除&nbsp; </span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1395" class="ax_default box_1">
+        <div id="u1395_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1396" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1397" class="ax_default label">
+        <div id="u1397_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1398" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">提示：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1399" class="ax_default label">
+        <div id="u1399_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1400" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">投票人数据删除后不能恢复，请确认是否删除。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u1401" class="ax_default checkbox">
+        <label for="u1401_input">
+          <!-- Unnamed () -->
+          <div id="u1402" class="text" style="display: none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';"></span></p>
+          </div>
+        </label>
+        <input id="u1401_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u1403" class="ax_default checkbox">
+        <label for="u1403_input">
+          <!-- Unnamed () -->
+          <div id="u1404" class="text" style="display: none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';"></span></p>
+          </div>
+        </label>
+        <input id="u1403_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u1405" class="ax_default checkbox">
+        <label for="u1405_input">
+          <!-- Unnamed () -->
+          <div id="u1406" class="text" style="visibility: visible;">
+            <p><span style="font-family:'微软雅黑';">全选</span></p>
+          </div>
+        </label>
+        <input id="u1405_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1407" class="ax_default button">
+        <div id="u1407_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1408" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1409" class="ax_default primary_button">
+        <div id="u1409_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1410" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1411" class="ax_default sticky_3">
+        <div id="u1411_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1412" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">备注：</span></p><p><span style="font-family:'微软雅黑';">1.批量删除操作</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1413" class="ax_default primary_button">
+        <div id="u1413_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1414" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">新增</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1415" class="ax_default sticky_3">
+        <div id="u1415_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1416" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">2.（重要）候选人资料导入时程序需根据 组 字段建立 投票小组</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1417" class="ax_default box_1">
+        <div id="u1417_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1418" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1419" class="ax_default label">
+        <div id="u1419_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1420" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">提示：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1421" class="ax_default label">
+        <div id="u1421_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1422" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">投票人数据导入失败，请确认投票组是否建立</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1423" class="ax_default button">
+        <div id="u1423_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1424" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1425" class="ax_default primary_button">
+        <div id="u1425_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1426" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1427" class="ax_default sticky_3">
+        <div id="u1427_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1428" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑';">备注：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (顶部导航) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1430" class="ax_default box_1">
+        <div id="u1430_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1431" class="text" style="display: none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1432" class="ax_default _三级标题">
+        <div id="u1432_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1433" class="text" style="visibility: visible;">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">投票管理后台</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u1434" class="ax_default">
+
+        <!-- 候选人 (矩形) -->
+        <div id="u1435" class="ax_default box_1 selected" data-label="候选人" selectiongroup="u1429按纽组-4">
+          <div id="u1435_div" class="selected"></div>
+          <!-- Unnamed () -->
+          <div id="u1436" class="text" style="visibility: visible;">
+            <p><span>候选人管理</span></p>
+          </div>
+        </div>
+
+        <!-- 投票人 (矩形) -->
+        <div id="u1437" class="ax_default box_1" data-label="投票人" selectiongroup="u1429按纽组-4">
+          <div id="u1437_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1438" class="text" style="visibility: visible;">
+            <p><span>投票人管理</span></p>
+          </div>
+        </div>
+
+        <!-- 投票组 (矩形) -->
+        <div id="u1439" class="ax_default box_1" data-label="投票组" selectiongroup="u1429按纽组-4">
+          <div id="u1439_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1440" class="text" style="visibility: visible;">
+            <p><span>投票组管理</span></p>
+          </div>
+        </div>
+
+        <!-- 投票数据 (矩形) -->
+        <div id="u1441" class="ax_default box_1" data-label="投票数据" selectiongroup="u1429按纽组-4">
+          <div id="u1441_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1442" class="text" style="visibility: visible;">
+            <p><span>投票数据管理</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
